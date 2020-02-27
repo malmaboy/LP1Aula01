@@ -17,6 +17,9 @@ namespace Tipovarios
             char meeh = '\u0156';
             char toto = '\u0186';
 
+            bool y = true;
+            bool e = false;
+
 
             Console.WriteLine(number);
             Console.WriteLine(numero);
@@ -24,6 +27,8 @@ namespace Tipovarios
             Console.WriteLine(meh);
             Console.WriteLine(meeh);
             Console.WriteLine(toto);
+            Console.WriteLine(y);
+            Console.WriteLine(e);
         }
 
 
