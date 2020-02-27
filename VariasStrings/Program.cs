@@ -6,12 +6,25 @@ namespace VariasStrings
     {
         static void Main(string[] args)
         {
+
+            double xx = 0.12345;
+            int ii = 18;
+
+            Console.WriteLine($"{xx:f}");
+            Console.WriteLine($"{xx:p1}");
+
+            Console.WriteLine($"{ii:x}");
+            Console.WriteLine($"{ii:c}");
+
+
+
+
             string normal = "Hello world";
             string tentativa = "Um tab\t e um copyright\u03A9";
             string meh = @"""esta string esta' entre aspas""";
             string meeh = "\"Esta stings esta entre aspas\"";
             string try1 = @"C:\Users\Ana\Documents";
-            string try2 = @"Nao é um codigo Unicode \u1234, nao e' nova linha";
+            string try2 = @"Nao é um código Unicode \u1234, nao e' nova linha";
 
             
 
@@ -38,6 +51,9 @@ namespace VariasStrings
             Console.WriteLine(s);
             Console.WriteLine(meeeh);
             Console.WriteLine(tr);
+
+
+            
 
         }
     }
